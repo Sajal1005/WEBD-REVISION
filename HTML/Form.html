@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><b>Job Application</b></h1>
+    <label for="Name">Name</label><br>
+    <input id="Name" type="text"><br>
+    <label for="Email">Email</label><br>
+    <input id="Email" type="mail"><br><label for="Phone">Phone</label><br>
+    <input id="Phone" type="tel"><br><label for="Resume">Resume</label><br>
+    <input id="Resume" type="file">
+
+    <h3>Experience (years):</h3>
+    <input type="number" max="50" min="0">
+    <br><br>
+    <fieldset>
+        <legend>Skills:</legend><br>
+        <input type="checkbox" id="html"><br><label for="html">HTML</label><br><br>
+        <input type="checkbox" id="css"><br><label for="css">CSS</label><br><br>
+        <input type="checkbox" id="js"><br><label for="js">JavaScript</label><br><br>
+    </fieldset>
+
+    <h4>Highest Education:</h4>
+    <select name="edu" id="edu">
+        <option value="">High School</option>
+        <option value="">College</option>
+    </select>
+
+    <h4>Availibility:</h4>
+    <input type="radio" name="rad" id="full"><label for="full">Full-Time</label><br><br>
+    <input type="radio" id="part" name="rad"><label for="part">Part-Time</label>
+
+    <h4>Additional Comments:</h4>
+    <textarea name="Comments" id="Comments" cols="30" rows="5"></textarea>
+</body>
+</html>
